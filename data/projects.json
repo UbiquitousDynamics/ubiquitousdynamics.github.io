@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Helios AI",
+    "category": "Onda Solare \u00b7 Physical AI",
+    "title": "What if you could talk to a solar vehicle?",
+    "summary": "Local voice AI for vehicles and robots on NVIDIA Jetson. Planned initial testbed for comparing resource-selection policies with fixed approaches.",
+    "url": "https://github.com/UbiquitousDynamics/helios-ai-jetson-framework",
+    "private": false,
+    "image": "static/images/helios-preview.png?v=restored",
+    "image_alt": "Helios AI vehicle-mounted edge computer",
+    "image_background": "#24282b",
+    "status": "Planned testbed"
+  },
+  {
+    "name": "AGI-Rover",
+    "category": "Robotics \u00b7 Simulation",
+    "title": "Can an autonomous robot learn new tasks through natural-language interaction?",
+    "summary": "An Isaac Sim rover model, with a physical build planned, exploring language-guided action. A possible future extension if the resource-selection approach generalises.",
+    "private": true,
+    "image": "static/images/agi-rover-preview.png",
+    "image_alt": "Tracked mobile robot with an articulated arm, gripper and camera",
+    "image_background": "#ffffff",
+    "status": "Exploration"
+  },
+  {
+    "name": "HelioRoute",
+    "category": "Solar mobility \u00b7 Strategy",
+    "title": "Can a solar-powered vehicle use weather and sunlight forecasts, along with real-time data, to adapt its driving strategy?",
+    "summary": "Weather and sunlight forecasts, route risks and telemetry for solar driving strategies. A possible future extension if the resource-selection approach generalises.",
+    "private": true,
+    "image": "static/images/helioroute-preview.png?v=2",
+    "image_alt": "HelioRoute application screenshot from the repository",
+    "image_background": "#010101",
+    "status": "Exploration"
+  }
+]

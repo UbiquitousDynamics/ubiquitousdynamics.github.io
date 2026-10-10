@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Ubiquitous Dynamics is an independent laboratory exploring resource-aware Physical AI with local language interaction and human oversight.">
+  <title>Ubiquitous Dynamics</title>
+  <link rel="icon" href="static/images/favicon.ico">
+  <link rel="stylesheet" href="static/styles.css?v=29">
+</head>
+<body class="home">
+  <div data-site-header></div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow">INDEPENDENT LABORATORY &middot; PHYSICAL AI &middot; AUTONOMOUS SYSTEMS</p>
+      <div class="hero-heading">
+        <h1 id="page-title">Ubiquitous<br><span>Dynamics</span></h1>
+        <div class="lab-mark-wrap">
+          <img class="lab-mark lab-mark-light" src="static/images/logo-light.png" alt="Ubiquitous Dynamics logo">
+          <img class="lab-mark lab-mark-dark" src="static/images/logo-dark.png" alt="" aria-hidden="true">
+        </div>
+      </div>
+
+      <div class="intro-grid">
+        <div class="intro-copy">
+          <p class="lead">Intelligence that adapts to the physical world and works with people.</p>
+          <p>An independent laboratory exploring Resource-Aware Physical AI: how machines choose between algorithms, local models and human input under limits on energy, computation, connectivity and attention.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="working-areas" aria-labelledby="focus-title">
+      <div class="section-heading">
+        <p class="eyebrow">RESEARCH FOCUS</p>
+        <h2 id="focus-title">Which resource should<br>a machine use next?</h2>
+        <p>For each request: a deterministic algorithm, a small local model, a large local model or human input? We are exploring how to improve task success within energy and latency budgets, while limiting errors and demands on users.</p>
+      </div>
+      <div class="area-grid">
+        <article class="area-card">
+          <p class="area-number">01</p>
+          <h3>Efficient</h3>
+          <p>Allocate computation, energy and connectivity to the simplest effective solution.</p>
+        </article>
+        <article class="area-card">
+          <p class="area-number">02</p>
+          <h3>Natural</h3>
+          <p>Use natural language with local AI. Offline operation is a design requirement.</p>
+        </article>
+        <article class="area-card">
+          <p class="area-number">03</p>
+          <h3>Human oversight</h3>
+          <p>Defer uncertain decisions to a person, with explicit limits on how often the system asks for help.</p>
+        </article>
+      </div>
+      <p class="research-hypothesis"><strong>Working hypothesis.</strong> Resource selection could reduce energy per completed task while maintaining comparable success to strong baselines, within fixed latency and user-request limits. Evaluation will include selection overhead and human effort; a request for help alone will not count as a completed task. This remains a research proposal.</p>
+    </section>
+
+    <section class="working-areas" aria-labelledby="origin-title">
+      <div class="split">
+        <div>
+          <p class="eyebrow">WHERE IT STARTED</p>
+          <h2 id="origin-title">From solar mobility<br>to Physical AI.</h2>
+        </div>
+        <div class="intro-copy">
+          <p>Could a solar vehicle support natural interaction with fewer electronic components, even offline?</p>
+          <p>Work with <a href="https://ondasolare.com/" target="_blank" rel="noopener noreferrer">Onda Solare</a> turned this question into experiments in voice interaction and local AI. Ubiquitous Dynamics grew from that work.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions" aria-labelledby="questions-title">
+      <div class="section-heading">
+        <p class="eyebrow">IDEAS INTO PRACTICE</p>
+        <h2 id="questions-title">Research in practice.</h2>
+        <p>Helios AI is the planned initial testbed. AGI-Rover and HelioRoute are possible future extensions; transfer of the approach remains to be tested.</p>
+      </div>
+
+      <!-- projects:start -->
+      <ol class="project-list">
+        <li>
+          <a href="https://github.com/UbiquitousDynamics/helios-ai-jetson-framework" target="_blank" rel="noreferrer">
+            <span class="project-meta"><span>Helios AI</span><span>Onda Solare · Physical AI</span><span class="project-status">Planned testbed</span><span class="project-preview preview-card" style="--preview-background: #24282b"><span class="preview-stage"><img class="preview-backdrop" src="static/images/helios-preview.png?v=restored" alt="" aria-hidden="true" loading="lazy" decoding="async"><img class="preview-image" src="static/images/helios-preview.png?v=restored" alt="Helios AI vehicle-mounted edge computer" loading="lazy" decoding="async"></span></span></span>
+            <div class="project-copy">
+              <h3>What if you could talk to a solar vehicle?</h3>
+              <p class="project-context">Local voice AI for vehicles and robots on NVIDIA Jetson. Planned initial testbed for comparing resource-selection policies with fixed approaches.</p>
+            </div>
+          </a>
+          <p class="project-links">Explore the repository on GitHub</p>
+        </li>
+        <li>
+          <a href="contact.html">
+            <span class="project-meta"><span>AGI-Rover</span><span>Robotics · Simulation</span><span class="project-status">Exploration</span><span class="project-preview preview-card" style="--preview-background: #ffffff"><span class="preview-stage"><img class="preview-backdrop" src="static/images/agi-rover-preview.png" alt="" aria-hidden="true" loading="lazy" decoding="async"><img class="preview-image" src="static/images/agi-rover-preview.png" alt="Tracked mobile robot with an articulated arm, gripper and camera" loading="lazy" decoding="async"></span></span></span>
+            <div class="project-copy">
+              <h3>Can an autonomous robot learn new tasks through natural-language interaction?</h3>
+              <p class="project-context">An Isaac Sim rover model, with a physical build planned, exploring language-guided action. A possible future extension if the resource-selection approach generalises.</p>
+            </div>
+          </a>
+          <p class="project-links">Private repository · Contact us to learn more</p>
+        </li>
+        <li>
+          <a href="contact.html">
+            <span class="project-meta"><span>HelioRoute</span><span>Solar mobility · Strategy</span><span class="project-status">Exploration</span><span class="project-preview preview-card" style="--preview-background: #010101"><span class="preview-stage"><img class="preview-backdrop" src="static/images/helioroute-preview.png?v=2" alt="" aria-hidden="true" loading="lazy" decoding="async"><img class="preview-image" src="static/images/helioroute-preview.png?v=2" alt="HelioRoute application screenshot from the repository" loading="lazy" decoding="async"></span></span></span>
+            <div class="project-copy">
+              <h3>Can a solar-powered vehicle use weather and sunlight forecasts, along with real-time data, to adapt its driving strategy?</h3>
+              <p class="project-context">Weather and sunlight forecasts, route risks and telemetry for solar driving strategies. A possible future extension if the resource-selection approach generalises.</p>
+            </div>
+          </a>
+          <p class="project-links">Private repository · Contact us to learn more</p>
+        </li>
+      </ol>
+      <!-- projects:end -->
+    </section>
+
+    <section class="working-areas" aria-labelledby="principles-title">
+      <div class="section-heading">
+        <p class="eyebrow">HOW WE WORK</p>
+        <h2 id="principles-title">Domain. Method.<br>Criterion.</h2>
+        <p>Three principles guide every project in the laboratory.</p>
+      </div>
+      <div class="principles">
+        <div class="principle">
+          <h3>Physical AI &amp; Autonomous Systems</h3>
+          <p>The domain. We explore intelligent machines that perceive, interact and act in the physical world: vehicles, robots and the software that guides them.</p>
+        </div>
+        <div class="principle">
+          <h3>Learning by Building</h3>
+          <p>The method. Students and junior professionals turn STEM knowledge into practical skills by writing software, integrating hardware and testing real systems in multidisciplinary teams.</p>
+        </div>
+        <div class="principle">
+          <h3>Eco-Pragmatism</h3>
+          <p>The criterion. Test usefulness and resource costs in context. Use a simple algorithm when AI is unnecessary, and build systems that support people within ecological limits.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="laboratory-cta" aria-labelledby="explore-title">
+      <div>
+        <p class="eyebrow">FOLLOW THE WORK</p>
+        <h2 id="explore-title">Build Yourself.</h2>
+      </div>
+      <div>
+        <p>Explore the code. Follow the experiments. Start a conversation.</p>
+        <div class="cta-links">
+          <a class="button" href="https://github.com/UbiquitousDynamics?tab=repositories" target="_blank" rel="noreferrer">Explore GitHub &nearr;</a>
+          <a class="text-link" href="contact.html">Collaborate with us &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+  <script src="script.js?v=10"></script>
+</body>
+</html>
